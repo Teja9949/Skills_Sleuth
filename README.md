@@ -1,4 +1,4 @@
-# Skills_Sleuth - File-by-File Breakdown
+# Skills_Sleuth
 
 A Flask job analytics web application mimicking job search sites like LinkedIn, complete with filtering, sorting, and data visualization. Below is a breakdown of each file in detail.
 
@@ -10,7 +10,7 @@ A Flask job analytics web application mimicking job search sites like LinkedIn, 
 - Loads and preprocesses the dataset (`dice_jobs.csv`)
 - Routes all pages: Home, Search, Analytics
 
-### ???? Notable Functions:
+### Notable Functions:
 - **`/search` route**:
   - Filters by job title, location, and skills
 - Sorting by title, location
@@ -22,11 +22,11 @@ A Flask job analytics web application mimicking job search sites like LinkedIn, 
 ---
 ## 2. **templates/base.html** — Shared HTML Layout
 
-### ✅ Responsibilities:
+### Responsibilities:
 - Provides a common layout and navigation bar across pages
 - Provides the loading bar for page transitions
 
-### ???? Contains:
+### Contains:
 - Navigation menu (Home, Search, Analytics)
 - Link to styles.css and Google Fonts
 - Full-page loading bar (`#loading-bar`)
